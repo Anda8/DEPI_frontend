@@ -1,0 +1,84 @@
+table {
+    width: 60%;
+    border: 1px solid #111;
+    /* border-collapse: collapse; */
+    border-collapse: separate;
+    border-spacing: 0;
+    /* border-spacing: 0;
+    border-radius: 15px; */
+    margin: 2rem;
+    border-radius: 0 0 15px 15px ;
+  }
+  table th,
+  table td {
+    border: 1px solid #111;
+    text-align: center;
+    padding: 1rem;
+  }
+  .caption{
+    height: 50px;
+    align-content: center;
+    background-color:#111;
+    color: #fff;
+    border-radius: 15px 15px 0 0;
+
+  }
+  .table-header {
+    background-color: salmon;
+    color: #fff;
+  }
+  tfoot {
+    background-color: #111;
+    color: #fff;
+  }
+  tbody {
+    background-color: #fafafa;
+  }
+  /* .first-rounded {
+    border-top-left-radius: 15px;
+  }
+  .second-rounded {
+    border-radius: 0 15px 0 0;
+  } */
+  .last-rounded {
+    border-radius: 0 0 15px 15px;
+  }
+  .table-container {
+    min-width: 600px;
+    overflow-x: auto;
+  }
+  .card {
+    display: inline-block;
+    height: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+    overflow: hidden;
+    position: relative;
+
+  }
+  .card img {
+    width: 100%;
+    height: 100%;
+  }
+  .offer {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #beeb0cb5;
+    padding: 5px 14px;
+    border-radius: 31px;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .card-content {
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    background-color: #cccccc5f;
+    font-family: sans-serif;
+  }
+  .card-content p , h4{
+    margin-top: 0.4rem;
+    color: #fefefe;
+    opacity: 0.7;
+  }

@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .my-3 {
+    margin: 1rem 0;
+  }
+  .m-3 {
+    margin: 1rem;
+  }

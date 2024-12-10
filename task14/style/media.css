@@ -1,0 +1,47 @@
+.banner.v1 .banner-right .arrow-shap,.banner.v1 .banner-right .shap-dot-1,.banner.v1 .banner-right .shap-dot-2,.banner.v1 .banner-right .shap-dot-3 {
+    position: absolute
+}
+
+.banner.v1 .banner-right .shap-dot-1,.banner.v1 .banner-right .shap-dot-2,.banner.v1 .banner-right .shap-dot-3 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background: var(--text-main-color)
+}
+
+.banner.v1 .banner-right .shap-dot-1 {
+    top: calc(50% - 40px);
+    left: 50px;
+    animation: 3.2s 1.2s infinite bBoll
+}
+
+.banner.v1 .banner-right .shap-dot-2 {
+    top: 17px;
+    left: calc(40% - 45px);
+    animation: 3.2s .7s infinite bBoll
+}
+
+.banner.v1 .banner-right .shap-dot-3 {
+    top: 35px;
+    right: 100px;
+    animation: 3.2s infinite bBoll
+}
+
+@keyframes bBoll {
+    0%,100% {
+        opacity: 1;
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5)
+    }
+
+    50% {
+        opacity: .5;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1)
+    }
+}
+

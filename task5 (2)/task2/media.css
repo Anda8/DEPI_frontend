@@ -1,0 +1,102 @@
+@media (max-width: 1200px) {
+    .text-box h1 {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 922px) {
+    .content{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+    }
+    .arrow {
+        width: 35px;
+        height: 35px;
+        font-size: 1.4rem;
+    }
+    .text-box {
+        max-width: 100%;
+    }
+
+    .text-box h1 {
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 768px) {
+    .content {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .arrow {
+        width: 30px;
+        height: 30px;
+        font-size: 1.2rem;
+    }
+
+    .text-box h1 {
+        font-size: 1.2rem;
+    }
+
+    .shop-now {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+    .card{
+        width: 240px;
+    }
+    .card img {
+        width: 70px;
+        height: 70px;
+    }
+    .fa-2x {
+        font-size: 1.8em;
+    }
+    
+     h2{
+        font-size: 1.2rem;
+     }
+     p{
+        font-size: 0.8rem;
+     }
+
+    
+}
+
+@media (max-width: 480px) {
+    .arrow {
+        font-size: 0.8rem;
+    }
+
+    .text-box {
+        padding: 0 10px;
+    }
+
+    .text-box h1 {
+        font-size: 1rem;
+    }
+
+    .shop-now {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+    .card{
+        width: 220px;
+    }
+    .card img {
+        width: 60px;
+        height: 60px;
+    }
+    .fa-2x {
+        font-size: 1.6em;
+    }
+    
+     h2{
+        font-size: 1rem;
+     }
+     p{
+        font-size: 0.6rem;
+     }
+}

@@ -1,0 +1,30 @@
+:root {
+  --text-main-color: #ff7f50;
+  --bg-main-color: #ff7f50;
+  --bg-main-light-color: #ff7f501d;
+
+  --text-secondary-color: #e4e4e4;
+  --bg-secondary-color: #e4e4e4;
+
+  --text-white-color: #fff;
+  --bg-white-color: #fff;
+
+  --text-dark-color: #111;
+  --bg-dark-color: #111;
+  --dark-color:#333;
+
+  --text-muted-color: #d3d3d3;
+
+  /* Start Form Variables */
+  --label-color: #111;
+  --input-color: #111;
+  --placeholder-input-color: #9b9b9b;
+  --bg-input-color: #fafafa;
+  --border-input-color: #ddd;
+  --input-height: 2.7rem;
+  --input-border-radius: 10px;
+  --input-padding: 10px;
+  /* Start Form Variables */
+
+  --card-border-radius: 5px;
+}

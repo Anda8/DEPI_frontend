@@ -1,0 +1,22 @@
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr ;
+    }
+    
+    .left{
+        width: 100%;
+
+    }
+    
+    .right {
+        /* order: -1; */
+        display: none;
+    }
+}
+@media (max-width:350px) {
+    .platforms{
+        display: flex;
+        flex-direction: column;
+    }
+}

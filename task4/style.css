@@ -1,0 +1,134 @@
+.top-banner {
+    background-color: var(--dark-color);
+    color: var(--bg-white-color);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.top-banner .close {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    position: relative;
+}
+
+.dropdown {
+    margin: 0 10px;
+}
+
+.nav-links .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #bcc24d;
+    top: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+.nav-links .dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+}
+
+.nav-links li:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-links :hover {
+    color: #ff5722;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icons a {
+    margin: 0 10px;
+    position: relative;
+}
+
+.cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #ff5722;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/rear-view-woman-holding-skateboard_23-2147905393.jpg?t=st=1720854515~exp=1720858115~hmac=8a2665e392c59bffa613c3a0f9039e733dd494f1e75a5d72d69647d05219efa1&w=1060');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-box {
+    height: 653px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px dashed #fff;
+    padding: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    width: 89%;
+}
+
+.kind-skate {
+    font-size: 48px;
+    margin: 0;
+    font-family: ui-sans-serif;
+    position: absolute;
+    top: 135px;
+    left: 45%;
+}
+
+.word-skate {
+    font-size: 36px;
+    margin: 10px 0;
+    font-weight: bold;
+    FONT-SIZE: 70px;
+    position: absolute;
+    top: 247px;
+    left: 24%;
+}
+
+.shop-now {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-size: 18px;
+    color: white;
+    background-color: orange;
+    position: absolute;
+    top: 382px;
+    left: 46%;
+}

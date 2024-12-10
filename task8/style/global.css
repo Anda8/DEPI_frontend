@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Zain", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--bs-white);
+  font-size: 1.5rem;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  width: 10px;
+}
+
+.hover:hover {
+  font-weight: bold;
+  transition: 0.5s;
+  color: var(--bs-blue);
+  cursor: pointer;
+}
+
+::selection {
+  color: var(--bs-gray-500);
+}

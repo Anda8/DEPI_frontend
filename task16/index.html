@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: black;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .market {
+            color: #fcf8f5;
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: 3fr 1fr;
+            padding-top: 2rem;
+            padding-inline: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            min-height: 100vh;
+            /* overflow: auto; */
+        }
+
+        .market h2 {
+            padding-left: 2rem;
+            width: 100%;
+            font-size: 30px;
+            color: rgb(74, 63, 53);
+        }
+
+        .products {
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: repeat(3, 1fr);
+            padding-inline: 20px; 
+        }
+
+        .products :first-child {
+            grid-column: 1 / 4;
+        }
+
+        .prodContainer {
+            position: relative;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #b94522;
+            border-radius: 2rem;
+            height: fit-content;
+        }
+
+        .loader {
+            width: 48px;
+            height: 48px;
+            border: 5px solid #FFF;
+            border-bottom-color: #FF3D00;
+            border-radius: 50%;
+            box-sizing: border-box;
+            animation: rotation 1s linear infinite;
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 3rem;
+        }
+
+        @keyframes rotation {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        summary {
+            cursor: pointer;
+        }
+
+        summary::marker {
+            color: #b94522;
+        }
+
+        button {
+            padding: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 3rem;
+        }
+
+        .basket {
+            height: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="market">
+
+        <div id="products" class="products">
+            <h2>Market</h2>
+        </div>
+        <div class="basket">
+            <!-- <img src="./images/empty-cart.svg" alt="empty cart" class="empty-cart"> -->
+        </div>
+        <div class="loader"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

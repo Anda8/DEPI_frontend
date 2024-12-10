@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.containerBody {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bs-dark);
+    color: var(--bs-white);
+    padding-inline: 3rem;
+    padding-block: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+}
+
+.navbar {
+    background-color: var(--bs-dark);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--bs-gray);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar a {
+    color: var(--bs-white);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.containerBody ul {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+.navbar ul.icons {
+    gap: 15px;
+  cursor: pointer;
+}
+
+.nav-menu,
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-icons {
+    display: flex;
+}
+
+.navbar .nav-menu .active {
+    color: var(--bs-blue);
+}
+
+.containerBody .navbar ul .menu {
+    display: none;
+}
+.page-content {
+    min-height: 100vh;
+    background: var(--bs-black);
+    color: var(--bs-white);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 2rem;
+
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    padding-inline: 8.1rem; */
+}
+
+.page-content .info {
+    max-width: 500px;
+    padding: 0.75rem;
+}
+
+.page-content .info .tt {
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    opacity: 0.6;
+}
+
+.page-content .info .title {
+    font-size: 4rem;
+    margin: 1rem 0;
+}
+
+.page-content .info .desc {
+    font-size: 1.2rem;
+    font-weight: 300;
+    opacity: 0.8;
+    margin-bottom: 1.5rem;
+}
+
+.page-content .info .btn-con {
+    margin-top: 1.25rem;
+}
+
+.page-content .info .btn-con button {
+    width: fit-content;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: var(--bs-lblue);
+    color: var(--bs-white);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.page-content .info .btn-con button:hover {
+    background-color: var(--bs-blue);
+}
+
+.page-content .image-con {
+    max-width: 500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.page-content .image-con img{
+    width: 100%;
+}
+
+.productContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16rem;
+    padding-bottom: 10rem;
+    grid-gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 0.5rem;
+    padding: 2.75rem 5.5rem;
+    margin-bottom: 5rem;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    width: 11rem;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    position: absolute;
+    top: -97px;
+}
+
+.productContainer .product-card h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.productContainer a {
+    color: var(--bs-dark);
+}
+
+.shop-link {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: var(--bs-black);
+
+    svg {
+        color: var(--bs-blue);
+    }
+}
+
+.shop-link:hover {
+    color: var(--bs-lblue);
+}
+
+.product-post {
+    padding-inline: 8.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body .main-headset .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bs-lblue);
+    gap: 3.5rem;
+    padding-inline: 50px;
+    padding-block: 16px;
+    overflow: hidden;
+    border-radius: 0.4rem;
+}
+
+body .main-headset .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.7rem;
+    color: #fff;
+    font-weight: bold;
+    padding: 1rem;
+}
+/* body .main-headset .container .image-con{
+    max-width: 300px;
+} */
+
+body .main-headset .container img {
+    max-width: 20rem; 
+  
+    transform: translateY(20px);
+}
+
+.main-speaker,
+.main-headset,
+.main-earpods,
+.audiophile {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+#speakers {
+    padding: 10rem;
+    background-image: url(../images/image-speaker-zx7.jpg);
+    width: 100%;
+    background-position: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+body .main-earpods .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+}
+
+body .main-earpods .container .img-con img {
+    border-radius: 0.4rem;
+}
+
+body .main-earpods .container .info {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 0.4rem;
+}
+
+body .main-earpods .container .info p,
+body .main-headset .info p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+body .main-headset .info p:nth-child(3) {
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #e4e4e4;
+}
+
+body .main-earpods .container .info button,
+body .main-speaker .info button,
+body .main-headset .info button {
+    width: fit-content;
+    border: 2px solid var(--bs-black);
+    background: transparent;
+    color: var(--bs-black);
+    text-transform: uppercase;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-size: 1.1rem;
+}
+
+body .main-headset .info button {
+    background-color: var(--bs-black);
+    color: var(--bs-white);
+}
+
+body .main-earpods .info button:hover,
+body .main-speaker .info button:hover {
+    background-color: var(--bs-black);
+    color: var(--bs-white);
+}
+
+body .main-speaker .container .info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+body .main-speaker .container .info p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+body .main-headset .info button:hover {
+    background: transparent;
+    color: var(--bs-black);
+}
+
+body .audiophile .container {
+    display: grid;
+    grid-template-columns: 1fr 0fr 1fr;
+    grid-gap: 4rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+body .audiophile .container .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: fit-content;
+}
+
+body .audiophile .container .info h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+
+    span {
+        color: var(--bs-lblue);
+    }
+}
+
+body .audiophile .container .info p {
+    font-size: 1.2rem;
+    color: #a3a3a3;
+}
+
+body .audiophile .container .person {
+    grid-column: 3 / 4;
+}
+
+body .audiophile .container .person img {
+    width: 100%;
+    border-radius: 0.4rem;
+}
+
+footer {
+    width: 100%;
+    background: var(--bs-black);
+    color: #a3a3a3;
+    padding-block: 4rem;
+    margin-top: 2rem;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-inline: 8.1rem;
+    width: 100%;
+}
+
+footer .container .left {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    width: 100%;
+}
+
+footer .container .left :nth-child(2){
+    font-size: 18px;
+}
+
+footer .container .right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: var(--bs-white);
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+footer .container .right :hover {
+    color: var(--bs-blue);
+}
+footer .container .right a .fa-brands{
+font-size: 1.25rem;
+}

@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Zain:wght@200;300;400;700;800;900&display=swap");
+
+
+.container {
+    min-height: 100vh;
+    background-color: var(--white-bg);
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.left {
+    padding: 3rem;
+}
+
+.left .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.left .text legend {
+    margin-bottom: 0.5rem;
+    color: #645b5b;
+}
+
+.left .text h2 {
+    color: var(--bs-color);
+}
+
+.left .form-container .text {
+    margin-bottom: 5rem;
+}
+
+.left .form-container .form-group {
+    margin-bottom: 3rem;
+}
+
+.left .form-container .form-group .form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--bs-color);
+}
+
+.left .form-container .form-group .form-control {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+}
+
+.left .form-container .remember .forgot-password {
+    font-weight: bold;
+}
+
+.left .form-container .remember .forgot-password:hover {
+    text-decoration: underline;
+}
+
+.container .form-container .email input::placeholder,
+.container .form-container .password input::placeholder {
+    font-weight: bold;
+    color: #7b7c80;
+    font-size: 0.85rem;
+}
+
+.container .form-container .email input:focus,
+.container .form-container .password input:focus {
+    border: 1.5px solid #5996ff;
+}
+
+
+.container .form-container .remember {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem; 
+    font-weight: normal;
+}
+
+.container .form-container .remember:hover {
+    cursor: pointer;
+}
+
+.forgot-password {
+    margin-right: auto; 
+}
+.container .data .btn button {
+    width: 100%;
+    background: #1c86ff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.left .submet .register-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--main-color);
+    color: var(--white-bg);
+    border: none;
+    margin-block: 1rem;
+}
+
+.left .submet .register-btn:hover {
+    background-color: #273238;
+}
+
+.platforms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.platforms .google img,
+.platforms .apple img {
+    width: 15px;
+}
+
+.platforms .google,
+.platforms .apple {
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #a5a4b3;
+    padding: 5px 20px;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.platforms .google:hover,
+.platforms .apple :hover {
+    color: #273238;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #a5a4b3;
+    padding: 0;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f8fc;
+}
+
+.right img {
+    width: 100%;
+    object-fit: cover;
+overflow: hidden;
+}

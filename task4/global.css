@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+::selection {
+  background-color: var(--bg-main-color);
+  color: var(--text-white-color);
+}
+a {
+  text-decoration: none;
+}
+ul li,
+ol li {
+  list-style-type: none;
+}
+

@@ -1,0 +1,57 @@
+:root{
+    /* --bs-dblue:#1410f2; */
+    --bs-blue: #086cff;
+    --bs-lblue: #4e95ff;
+    --bs-main-purple: #6f42c1;
+    --bs-indigo: #6610f2;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000000;
+    --bs-light-black:#000000e5;
+    --bs-white: #ffffff;
+    --bs-offwhite:#ccc;
+    --bs-gray: #78829D;
+    --bs-gray-dark: #252F4A;
+    --bs-gray-100: #F9F9F9;
+    --bs-gray-200: #F1F1F4;
+    --bs-gray-300: #DBDFE9;
+    --bs-gray-400: #C4CADA;
+    --bs-gray-500: #99A1B7;
+    --bs-gray-600: #78829D;
+    --bs-gray-700: #4B5675;
+    --bs-gray-800: #252F4A;
+    --bs-gray-900: #071437;
+    --bs-light: #F9F9F9;
+    --bs-primary: #3E97FF;
+    --bs-secondary: #F1F1F4;
+    --bs-success: #50cd89;
+    --bs-info: #7239ea;
+    --bs-warning: #ffc700;
+    --bs-danger: #f1416c;
+    --bs-dark: #1E2129;
+    --bs-light-rgb: 249, 249, 249;
+    --bs-primary-rgb: 62, 151, 255;
+    --bs-secondary-rgb: 241, 241, 244;
+    --bs-success-rgb: 80, 205, 137;
+    --bs-info-rgb: 114, 57, 234;
+    --bs-warning-rgb: 255, 199, 0;
+    --bs-danger-rgb: 241, 65, 108;
+    --bs-dark-rgb: 30, 33, 41;
+    --bs-primary-text-emphasis: #193c66;
+    --bs-secondary-text-emphasis: #606062;
+    --bs-success-text-emphasis: #205237;
+    --bs-info-text-emphasis: #2e175e;
+    --bs-warning-text-emphasis: #665000;
+    --bs-danger-text-emphasis: #601a2b;
+    --bs-light-text-emphasis: #4B5675;
+    --bs-dark-text-emphasis: #4B5675;
+    --bs-primary-bg-subtle: #d8eaff;
+    --bs-secondary-bg-subtle: #fcfcfd;
+    --bs-success-bg-subtle: #dcf5e7;
+    
+}

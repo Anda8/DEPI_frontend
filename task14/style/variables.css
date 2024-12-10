@@ -1,0 +1,18 @@
+:root {
+    --text-main-color: #e34d00;
+    --bg-main-color: #3a1078;
+  
+    --text-secondary-color: #4e31aa;
+    --bg-secondary-color: #4e31aa;
+  
+    --text-white-color: #fff;
+    --bg-white-color: #fff;
+  
+    --text-gray-color: #ccc;
+    --bg-gray-color: #ccc;
+  
+    --text-dark-color: #111;
+    --bg-dark-color: #111;
+    --bg-color-black3: #222222;
+  }
+  

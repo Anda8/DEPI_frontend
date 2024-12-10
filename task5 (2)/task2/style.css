@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('//fonts/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('//fonts/Roboto-Light.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Medium', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    color: #fff;
+}
+
+.content {
+    background-image: url('https://img.freepik.com/free-photo/3d-icon-traveling-vacation_23-2151037394.jpg?ga=GA1.2.1335654819.1720159769&semt=sph');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 1;
+}
+.text-box{
+    z-index: 2;
+}
+.arrow {
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: orange;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.arrow:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.text-box {
+    text-align: center;
+    color: #fff;
+    max-width: 600px;
+}
+
+.kind-skate {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 10px;
+    color: #8eea33;
+    font-weight: 250px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.shop-now {
+    text-decoration: none;
+    color: #fff;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.shop-now:hover {
+    background-color: darkorange;
+}
+ aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+ }
+   
+
+ .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.card {
+    background-color: #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card .image {
+    position: relative;
+    display: inline-block;
+}
+
+.icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 3px;
+}
